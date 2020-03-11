@@ -1,0 +1,16 @@
+{
+    "require": {
+         "alexgarrett/violin": "2.*",
+        "setasign/fpdf": "^1.8"
+    },
+
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : [
+                "App/Controller",
+                "App/Core",
+                "App/Model"
+            ]
+        }
+    }
+}
